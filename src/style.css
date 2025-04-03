@@ -1,0 +1,47 @@
+@import url('global.css');
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-color: rgba(0, 0, 0, 0.007);
+}
+
+.logo{
+    display: flex;
+    padding: 49px 100px;
+}
+
+.active{
+   color: var(--color-primary);
+}
+
+.nav-header ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+   
+}
+
+.nav-header ul a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+.header-icons{
+ display: flex;
+ gap: 8px;
+ padding: 40px 100px;
+}
+
+.btn-header{
+    background-color: rgba(0, 0, 0, 0.007);
+    color: var(--color-primary);
+    border-radius: 10px;
+    width: 105px;
+    height: 51px;
+    border-color: var(--color-primary);
+
+}
