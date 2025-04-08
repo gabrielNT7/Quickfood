@@ -1,5 +1,16 @@
 @import url('global.css');
 
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Caminho/Gilroy.ttf') format('ttf');         
+}
+
+body {
+    font-family: 'Gilroy', sans-serif; 
+}
+
+
+       /* HEADER */
 header{
     display: flex;
     justify-content: space-between;
@@ -45,3 +56,136 @@ header{
     border-color: var(--color-primary);
 
 }
+
+  /* FIM HEADER */
+
+  /* MAIN */
+
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    margin-top: 100px;
+  }
+
+.food-healthy h1{
+    width: 563px;
+    height: 160px;
+    font-size: 62px;
+ 
+
+}
+.food-healthy span{
+    color: var(--color-primary);
+}
+
+.food-healthy p{
+   width: 503px;
+   height: 116px; 
+   font-size: 22px;
+}
+
+.main-buttons{
+    display: flex;
+    gap: 24px;
+}
+.active-first{
+   width: 144px;
+   height: 51px;
+    background-color: var(--color-primary);
+    color: var(--color-bg-overlay);
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.active-second{
+    margin-top: 22px;
+    width: 188px;
+    height: 51px;
+    background-color: (--color-bg-overlay);
+    color: var(--color-primary);
+    border-radius: 10px;
+
+}
+
+/* ----------choose------- */
+
+.choose-system{
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.choose-why{
+   text-align: center;
+   margin-top: 102px;
+}
+
+.choose-why h2{
+    font-size: 48px;
+}
+
+.choose-why p{
+    font-size: 18px;
+}
+
+
+
+.cards-chooses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.cards-chooses-content {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-chooses h2{
+    align-items: center;
+    font-size: 28px;
+    text-align: center
+}
+
+.cards-chooses p{
+    font-size: 18px;
+   width: 270px;
+   text-align: center
+}
+
+.Choose-info{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.choose-content {
+    width: 400px;
+}
+
+.Choose-info h2{
+    font-size: 48px;
+   
+}
+
+.Choose-info p{
+    font-size: 18px;
+}
+
+/* FIM CHOOSES */
+
+ 
+
+
