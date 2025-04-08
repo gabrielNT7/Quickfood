@@ -187,7 +187,59 @@ header{
 /* FIM CHOOSES */
 
 /* DISHES */
+.dishes{
+ justify-content: center;
+ align-items: center;
+}
 
+ .dishes-why{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 40px;
+ }
+
+ 
+
+ .dishes-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ }
+
+ .dishes-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 400px;
+    text-align: center;
+    margin-top: 60px;
+    
+ }
+
+ .dishes-content h3{
+    font-size: 28px;
+ }
+
+ .dishes-content p{
+    font-size: 18px;
+   
+    width: 279px;
+ }
+
+
+
+ .dishes-content button{
+    background-color: var(--color-primary);
+    width: 350px;
+    height: 53px;
+    border-radius: 8px;
+    gap: 20px;
+    color: var(--color-bg-overlay);
+ }
 /* FIM DISHES */
 
  
