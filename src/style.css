@@ -267,6 +267,7 @@ header{
     flex-direction: column;
     gap: 16px;
     width: 399px;
+    background-color: var(--color-bg-overlay);
 }
 
 .about-content h2{
@@ -283,6 +284,44 @@ header{
 }
 
 /* FIM ABOUT US */
+
+/* INFO*/
+.info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 82px;
+    margin-top: 60px;
+}
+
+.info-content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px
+}
+.info-content button{
+    background-color: var(--color-primary);
+    width: 157px;
+    height: 53px;
+    border-radius: 10px;
+    color: var(--color-bg-overlay);
+    
+}
+
+.info-content h2{
+    font-size: 40px;
+}
+
+.info-content p{
+    font-size: 18px;
+    width: 558px;
+}
+
+
+/* FIM INFO*/
+
+
+
 
  
 
