@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
 :root{
     --color-grey: #000000;
     --color-primary: #00A000;

@@ -200,25 +200,20 @@ header{
     font-size: 40px;
  }
 
- 
-
  .dishes-container{
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-top: 60px;
  }
 
  .dishes-content{
     display: flex;
     flex-direction: column;
+    gap: 16px;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
-    width: 400px;
-    text-align: center;
-    margin-top: 60px;
-    
  }
+
 
  .dishes-content h3{
     font-size: 28px;
@@ -226,21 +221,68 @@ header{
 
  .dishes-content p{
     font-size: 18px;
-   
     width: 279px;
  }
-
-
 
  .dishes-content button{
     background-color: var(--color-primary);
     width: 350px;
     height: 53px;
     border-radius: 8px;
-    gap: 20px;
     color: var(--color-bg-overlay);
  }
 /* FIM DISHES */
+
+
+/* ABOUT US */
+
+.about-us{
+   justify-content: center;
+   align-items: center;
+}
+.about-part{
+    text-align: center;
+    margin-top: 60px;
+    gap: 8px;
+}
+.about-part h2{
+    font-size: 48px;
+}
+
+
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+    gap: 21px;
+    
+}
+
+.about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    width: 399px;
+}
+
+.about-content h2{
+    font-size: 28px;
+    text-align: center;
+}
+
+.about-content p{
+    width: 319px;
+    text-align: center;
+    font-size: 15px
+    
+    
+}
+
+/* FIM ABOUT US */
 
  
 
