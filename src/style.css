@@ -320,6 +320,60 @@ header{
 
 /* FIM INFO*/
 
+/* SUBSCRIBE */
+
+.susbcribe-container{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px; 
+    flex-direction: column;
+
+}
+
+
+.subscribe-content h2{
+    font-size: 48px;
+}
+
+.subscribe-content p{
+ font-size: 18px;
+}
+.Subscribe-address button{
+ background-color: var(--color-primary);
+ width: 174px;
+ height: 61px;
+ border-radius: 8px;
+ color: var(--color-bg-overlay);
+ cursor: pointer;
+ 
+ 
+}
+
+.Subscribe-address form{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.Subscribe-address form input{
+    width: 700px;
+    height: 77px;
+    border: 1px solid #000;
+    border-right: none;
+   
+}
+
+.btn-input{
+    padding: 8px;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    border-left: none;
+}
+
+/* FIM SUBSCRIBE*/
+
 
 
 
